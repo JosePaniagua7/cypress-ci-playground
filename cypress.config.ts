@@ -17,10 +17,10 @@ let awsConfig = {
 
 try {
   awsConfig = require(path.join(__dirname, "./aws-exports-es5.js"));
-} catch (e) {}
+} catch (e) { }
 
 module.exports = defineConfig({
-  projectId: "7s5okt",
+  projectId: "i3gwoe",
   retries: {
     runMode: 2,
   },
